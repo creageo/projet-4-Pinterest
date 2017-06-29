@@ -1,16 +1,16 @@
 # projet-4-Pinterest
 
-code utilisé : 
+code utilisé : html css php
 
-outil utilisé : 
+outil utilisé : sublimetext apache 000webhost
 
 complément : 
 
-code valide : 
+code valide : oui
 
 non-voyants : 
 
-sanitizé et validé : 
+sanitizé et validé : oui
 
 responsive : oui
 
