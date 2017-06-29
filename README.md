@@ -1,13 +1,19 @@
 # projet-4-Pinterest
 
-code utilisé :
+code utilisé : 
 
-outil utilisé :
+outil utilisé : 
 
-complément :
+complément : 
 
-validé :
+code valide : 
 
-responsive :
+non-voyants : 
 
-sanitizé :
+sanitizé et validé : 
+
+responsive : 
+
+exercice : 
+
+mon evaluation sur 10 : 
