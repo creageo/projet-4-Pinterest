@@ -14,6 +14,6 @@ sanitizé et validé :
 
 responsive : 
 
-exercice : 
+exercice : https://github.com/becodeorg/BXLCentral/tree/master/Projects/4-Pinterest
 
 mon evaluation sur 10 : 
