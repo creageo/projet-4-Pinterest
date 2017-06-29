@@ -8,7 +8,7 @@ complément : https://ex22bege.000webhostapp.com/
 
 code valide : oui
 
-non-voyants : 
+non-voyants : oui
 
 sanitizé et validé : oui
 
