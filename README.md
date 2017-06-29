@@ -12,8 +12,8 @@ non-voyants :
 
 sanitizé et validé : 
 
-responsive : 
+responsive : oui
 
 exercice : https://github.com/becodeorg/BXLCentral/tree/master/Projects/4-Pinterest
 
-mon evaluation sur 10 : 
+mon evaluation sur 10 : 6/10
