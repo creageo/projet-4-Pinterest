@@ -26,33 +26,38 @@
 
 	<?php
 
+	//si l'utilisateur upload une image
 	if(isset($_FILES['avatar'])){
 
-	$dossier = 'upload/';
-	$fichier = $dossier . basename($_FILES['avatar']['name']);
-	$extensions = array('jpg','jpeg','png','gif','WebP');
-	$imagePath_parts = pathinfo($_FILES['avatar']['name']);
-	$extentionImage = $imagePath_parts['extension'];
+		//je defini mes variables
+		$dossier = 'upload/';
+		$fichier = $dossier . basename($_FILES['avatar']['name']);
+		$extensions = array('jpg','jpeg','png','gif','WebP');
+		$imagePath_parts = pathinfo($_FILES['avatar']['name']);
+		$extentionImage = $imagePath_parts['extension'];
 
-	if (!in_array($extentionImage, $extensions)) {
-		$erreur = 'ONLY FILETYPE : .jpg .jpeg .png .gif .WebP';
-	}
+		//si les extensions sont correct
+		if (!in_array($extentionImage, $extensions)) {
+			$erreur = 'ONLY FILETYPE : .jpg .jpeg .png .gif .WebP';
+		}
 
+		//si l'image est bien upload j'affiche 'Envoie du fichier : ok'
+		//sinon j'affiche 'Envoie du fichier : echec'
 		if (move_uploaded_file($_FILES['avatar']['tmp_name'], $fichier)) {
 			echo 'Envoie du fichier : ok';
 			echo "<br>";
-		}
-
-		else{
+		} else{
 			echo 'Envoie du fichier : echec';
 			echo "<br>";
 		}
 
 	}
 
+	//je defini mes variables
 	$dossier = 'upload/';
 	$contenu_du_dossier = scandir( $dossier );
 
+	//avec une boucle j'affiche le contenu du dossier entre du html
 	foreach( $contenu_du_dossier as $value ){
 	if ( 0 != strpos($value, '.') ){
 	echo '<img src="'.$dossier. '/'. $value.'" alt="" width="200">';
