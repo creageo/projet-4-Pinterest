@@ -12,7 +12,7 @@ non-voyants : oui
 
 sanitizé et validé : oui
 
-responsive : oui
+responsive : non
 
 exercice : https://github.com/becodeorg/BXLCentral/tree/master/Projects/4-Pinterest
 
